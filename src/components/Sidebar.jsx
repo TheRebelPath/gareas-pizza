@@ -22,6 +22,14 @@ const Sidebar = (props) => {
       >
         {/* <img src="" alt="close" /> */}
       </div>
+      <Link 
+      to='/'
+      onClick={toggleMenu}
+      >
+        Inicio
+      </Link>
+      <h3>Menu</h3>
+      <hr />
       <div>
         <ul>
           {navLinks.map((link) => (
