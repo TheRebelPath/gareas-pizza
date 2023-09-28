@@ -1,4 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
+import {BrowserRouter, Routes, Route} from 'react-router-dom';
 
 import {
   Navbar,
@@ -7,9 +7,10 @@ import {
   Clasicas,
   Carnivoras,
   Vegetarianas,
+  Especialidades,
   Snacks,
   Footer,
-} from "./components";
+} from './components';
 
 const App = () => {
   return (
@@ -23,6 +24,7 @@ const App = () => {
         <Route path="/clasicas" element={<Clasicas />} />
         <Route path="/carnivoras" element={<Carnivoras />} />
         <Route path="/vegetarianas" element={<Vegetarianas />} />
+        <Route path="/especialidades" element={<Especialidades />} />
         <Route path="/snacks" element={<Snacks />} />
       </Routes>
       <Footer />
