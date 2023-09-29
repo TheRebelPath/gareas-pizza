@@ -9,6 +9,7 @@ const Sidebar = (props) => {
   
   const toggleMenu =() => {
     setOpen(!open);
+    window.scrollTo(0, 320);
   };
   
   return (
@@ -28,14 +29,15 @@ const Sidebar = (props) => {
       to='/'
       onClick={toggleMenu}
       >
-        Inicio
-      </Link>
       <h3>Menu</h3>
-      <hr />
+      </Link>
+      <hr className="text-white mb-3" />
       <div>
         <ul>
           {navLinks.map((link) => (
-          <li key={link.id}>
+          <li key={link.id}
+          className="text-white mb-3"
+          >
             <Link 
             to={`/${link.id}`} 
             onClick={toggleMenu}>
