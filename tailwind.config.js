@@ -7,7 +7,7 @@ export default {
   theme: {
     extend: {
       backgroundImage: {
-        'price-tag': "url('./src/assets/pricetag.png')",
+        'price-tag': "url('../src/assets/pricetag.png')",
       }
     },
   },
