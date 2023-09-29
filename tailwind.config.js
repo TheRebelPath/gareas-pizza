@@ -5,7 +5,11 @@ export default {
     "./src/**/*.{js,ts,jsx,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      backgroundImage: {
+        'price-tag': "url('./src/assets/pricetag.png')",
+      }
+    },
   },
   plugins: [],
 }
