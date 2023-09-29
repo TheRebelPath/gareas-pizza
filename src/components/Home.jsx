@@ -10,7 +10,10 @@ const Home = () => {
      {navLinks.map((link) => (
       <div key={link.id}>
         <h2 className="text-[3rem] text-center">{link.title}</h2>
-        <Link to={link.id}>
+        <Link 
+        to={link.id}
+        onClick={()=>{window.scrollTo(0, 320)}}
+        >
         <img src={link.image} alt={link.title} />
         </Link>
       </div>
