@@ -1,28 +1,31 @@
 //logo
-import logo from './logotest.png'
+import logo from './logotest.png';
 
-import whatsapp from './whatsapp.svg'
+import whatsapp from './whatsapp.svg';
 
 // Clasicas
-import clasica from './clasicas/clasica.png';
-import hawaiana from './clasicas/hawaiana.png';
-import pepechamps from './clasicas/papachamps.png';
+import clasica from './clasicas/placeholder.webp';
+import hawaiana from './clasicas/placeholder.webp';
+import pepechamps from './clasicas/placeholder.webp';
 // Carnivoras
-import atascada from './carnivoras/atascada.png';
+import atascada from './carnivoras/placeholder.webp';
+import mexicana from './carnivoras/placeholder.webp';
 // Vegetarianas
-import extravagante from './vegetarianas/extravagante.png';
-import herbivora from './vegetarianas/herbivora.png';
-import margarita from './vegetarianas/margarita.png';
-import veggie from './vegetarianas/veggie.png';
+import delhuerto from './vegetarianas/placeholder.webp';
+import extravagante from './vegetarianas/placeholder.webp';
+import herbivora from './vegetarianas/placeholder.webp';
+import margarita from './vegetarianas/placeholder.webp';
+import vegetariana from './vegetarianas/placeholder.webp';
 // Especialidades
-import alemana from './especialidades/alemana.png';
-import espanola from './especialidades/espanola.png';
+import alemana from './especialidades/placeholder.webp';
+import espanola from './especialidades/placeholder.webp';
+import cabra from './especialidades/placeholder.webp';
 // Snacks
-import aroscebolla from './snacks/aroscebolla.png';
-import papas from './snacks/papas.png';
-import papagajo from './snacks/papagajo.png';
-import popchicken from './snacks/popchicken.png';
-import snacks from './snacks/snacks.jpg';
+import aroscebolla from './snacks/placeholder.webp';
+import papas from './snacks/placeholder.webp';
+import papagajo from './snacks/placeholder.webp';
+import popchicken from './snacks/placeholder.webp';
+import snacks from './snacks/placeholder.webp';
 // Video
 import heropizza from './heropizza.mp4';
 
@@ -33,10 +36,13 @@ export {
   hawaiana,
   pepechamps,
   atascada,
+  mexicana,
   extravagante,
   herbivora,
+  cabra,
   margarita,
-  veggie,
+  delhuerto,
+  vegetariana,
   alemana,
   espanola,
   aroscebolla,
