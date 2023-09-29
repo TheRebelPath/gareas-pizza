@@ -1,8 +1,18 @@
 import { SectionWrapper } from "../hoc"
+import MenuItem from "./MenuItem"
+import { vegetarianas } from "../constants"
 
 const Vegetarianas = () => {
   return (
-    <div>Vegetarianas</div>
+    <div>
+      <h2>Vegetarianas</h2>
+      {vegetarianas.map((item, index) =>(
+        <MenuItem 
+        key={index}
+        {...item}
+        />
+      ))}
+    </div>
   )
 }
 
