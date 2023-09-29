@@ -1,3 +1,8 @@
+//logo
+import logo from './logotest.png'
+
+import whatsapp from './whatsapp.svg'
+
 // Clasicas
 import clasica from './clasicas/clasica.png';
 import hawaiana from './clasicas/hawaiana.png';
@@ -22,6 +27,8 @@ import snacks from './snacks/snacks.jpg';
 import heropizza from './heropizza.mp4';
 
 export {
+  logo,
+  whatsapp,
   clasica,
   hawaiana,
   pepechamps,
