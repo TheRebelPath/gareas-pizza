@@ -1,3 +1,6 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -7,11 +10,20 @@
   padding: 0;
   box-sizing: border-box;
   scroll-behavior: smooth;
+  font-family: 'Roboto', sans-serif;
 }
- body {
-  background-color: #f6f6f6;
- }
 
+body {
+  background-color: #f6f6f6;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: 'Kaushan Script', cursive;
+}
 
 /* Position and sizing of burger button */
 .bm-burger-button {
@@ -29,8 +41,7 @@
 
 /* Color/shape of burger icon bars on hover*/
 .bm-burger-bars-hover {
-  background: #a90000;
-
+  background: #a71d2a;
 }
 
 /* Position and sizing of clickable cross button */

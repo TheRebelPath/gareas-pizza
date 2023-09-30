@@ -3,6 +3,8 @@ import logo from './logotest.png';
 
 import whatsapp from './whatsapp.svg';
 
+import close from './close.svg';
+
 // Clasicas
 import clasica from './clasicas/placeholder.webp';
 import hawaiana from './clasicas/placeholder.webp';
@@ -32,6 +34,7 @@ import heropizza from './heropizza.mp4';
 export {
   logo,
   whatsapp,
+  close,
   clasica,
   hawaiana,
   pepechamps,
