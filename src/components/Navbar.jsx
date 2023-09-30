@@ -1,5 +1,6 @@
 import Sidebar from './Sidebar';
 import {logo} from '../assets';
+import {Link} from 'react-router-dom';
 
 const Navbar = () => {
   return (
@@ -9,7 +10,9 @@ const Navbar = () => {
     >
       <Sidebar outerContainerId={'outer-container'} customCrossIcon={false} />
       <div className="z-10 mt-2 mx-auto">
-        <img src={logo} alt="logo" className="w-28" />
+        <Link to="/" onClick={() => window.scrollTo(0, 320)}>
+          <img src={logo} alt="logo" className="w-28" />
+        </Link>
       </div>
     </div>
   );

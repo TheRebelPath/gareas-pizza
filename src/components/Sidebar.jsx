@@ -51,7 +51,7 @@ const Sidebar = (props) => {
             <button
               className="w-full bg-primary text-xl uppercase font-bold rounded-[5px] p-2 flex justify-center items-center"
               onClick={() =>
-                window.open('https://wa.me/+523319743518', '_blank')
+                window.open('https://wa.me/+523332299490', '_blank')
               }
             >
               <img className="w-[80px] mr-5 " src={whatsapp} alt="whatsapp" />
