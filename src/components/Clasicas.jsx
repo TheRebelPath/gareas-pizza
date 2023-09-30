@@ -1,20 +1,20 @@
-import { SectionWrapper } from "../hoc"
-import MenuItem from "./MenuItem"
-import { clasicas } from "../constants"
+import {SectionWrapper} from '../hoc';
+import MenuItem from './MenuItem';
+import {clasicas} from '../constants';
+import {styles} from '../styles';
 
 const Clasicas = () => {
   return (
-    <div>
-      <h2 className="text-[3rem] text-center">Clasicas</h2>
-      <hr className="bg-red-900 h-2 mb-5" />
-      {clasicas.map((item, index) =>(
-        <MenuItem 
-        key={index}
-        {...item}
-        />
-      ))}
-    </div>
-  )
-}
+    <>
+      <h2 className={styles.menuGridTitle}>Clasicas</h2>
+      <hr className="bg-primary h-2 mb-5" />
+      <div className={styles.menuGridItem}>
+        {clasicas.map((item, index) => (
+          <MenuItem key={index} {...item} />
+        ))}
+      </div>
+    </>
+  );
+};
 
 export default SectionWrapper(Clasicas);

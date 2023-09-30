@@ -50,38 +50,38 @@ const navLinks = [
 const clasicas = [
   {
     title: 'Clasica',
-    price: 169,
+    price: '169',
     image: clasica,
     ingredientes:
       'Combinacion de quesos mozarella y gouda, pepperoni y un leve toque de especias italianas',
   },
   {
     title: 'Hawaiana',
-    price: 189,
+    price: '189',
     image: hawaiana,
     ingredientes:
       'Combinacion de quesos mozarella y gouda, jamon, pina y un leve toque de especias italianas',
   },
   {
     title: 'Margarita',
-    price: 199,
+    price: '199',
     image: margarita,
     ingredientes:
-      'Combinacion de quesos mozarella y gouda, jamon, pina y un leve toque de especias italianas',
+      'Combinacion de quesos mozarella y gouda, jitomate cherry, chimichurri, albahaca y un leve toque de especias italianas',
   },
 ];
 
 const carnivoras = [
   {
     title: 'Atascada',
-    price: 249,
+    price: '249',
     image: atascada,
     ingredientes:
       'Combinacion de quesos mozarella y gouda, jamon de pierna, salami, pepperoni, chorizo, tocino ahumado, salchicha y un leve toque de especias italianas',
   },
   {
     title: 'PepeChamps',
-    price: 189,
+    price: '189',
     image: pepechamps,
     ingredientes:
       'Combinacion de quesos mozarella y gouda, pepperoni, chorizo, champinon y un leve toque de especias italianas',
@@ -105,7 +105,7 @@ const vegetarianas = [
   },
   {
     title: 'Del Huerto',
-    price: '???',
+    price: '199',
     image: delhuerto,
     ingredientes:
       'Combinacion de quesos mozarella y gouda, champinones, jitomate cherry, albahaca y un leve toque de especias italianas',
@@ -129,21 +129,21 @@ const vegetarianas = [
 const especialidades = [
   {
     title: 'Alemana',
-    price: 209,
+    price: '209',
     image: alemana,
     ingredientes:
       'Combinacion de quesos mozarella y gouda, salchicha rostizada al ajo, hongos portobello y un leve toque de especias italianas',
   },
   {
     title: 'Cabra',
-    price: 229,
+    price: '229',
     image: cabra,
     ingredientes:
       'Combinacion de quesos mozarella y gouda, jitomate cherry, queso de cabra, albahaca y un leve toque de especias italianas',
   },
   {
     title: 'Espanola',
-    price: 249,
+    price: '249',
     image: espanola,
     ingredientes:
       'Combinacion de quesos mozarella y gouda, jamon serrano, queso de cabra, chimichurri y un leve toque de especias italianas',
@@ -153,22 +153,22 @@ const especialidades = [
 const aperitivos = [
   {
     title: 'Aros de Cebolla',
-    price: 79,
+    price: '79',
     image: aroscebolla,
   },
   {
     title: 'Popcorn Chicken',
-    price: 79,
+    price: '79',
     image: popchicken,
   },
   {
     title: 'Papas Gajo',
-    price: 69,
+    price: '69',
     image: papagajo,
   },
   {
     title: 'Papas a la francesa',
-    price: 69,
+    price: '69',
     image: papas,
   },
 ];
