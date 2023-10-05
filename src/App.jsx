@@ -14,7 +14,7 @@ import {
 
 const App = () => {
   return (
-    <BrowserRouter basename={`/gareas-pizza/`}>
+    <BrowserRouter>
       <div id="page-wrap">
         <Navbar />
         <Hero />
