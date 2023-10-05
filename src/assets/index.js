@@ -6,7 +6,7 @@ import whatsapp from './whatsapp.svg';
 import close from './close.svg';
 
 // Clasicas
-import clasica from './clasicas/placeholder.webp';
+import clasica from './clasicas/pepperoni.webp';
 import hawaiana from './clasicas/placeholder.webp';
 import pepechamps from './clasicas/placeholder.webp';
 // Carnivoras

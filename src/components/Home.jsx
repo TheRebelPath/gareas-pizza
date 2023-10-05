@@ -20,7 +20,7 @@ const Home = () => {
             <Link
               to={link.id}
               onClick={() => {
-                window.scrollTo(0, 320);
+                window.scrollTo(0, 295);
               }}
             >
               <img src={link.image} alt={link.title} className="w-[500px]" />

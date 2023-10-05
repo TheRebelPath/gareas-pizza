@@ -24,7 +24,7 @@ const Sidebar = (props) => {
         >
           {<img src={close} alt="close" />}
         </div>
-        <img className="w-[50%] mb-5" src={logo} alt="logo" />
+        <img className="w-[50%] m-auto mb-7" src={logo} alt="logo" />
         <Link to="/" onClick={toggleMenu}>
           <h3 className="text-secondary">Menu</h3>
         </Link>
