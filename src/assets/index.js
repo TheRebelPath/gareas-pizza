@@ -6,7 +6,7 @@ import whatsapp from './whatsapp.svg';
 import close from './close.svg';
 
 // Clasicas
-import clasica from './clasicas/placeholder.webp';
+import clasica from './clasicas/pepperoni.webp';
 import hawaiana from './clasicas/placeholder.webp';
 import pepechamps from './clasicas/placeholder.webp';
 // Carnivoras
@@ -23,11 +23,11 @@ import alemana from './especialidades/placeholder.webp';
 import espanola from './especialidades/placeholder.webp';
 import cabra from './especialidades/placeholder.webp';
 // Snacks
-import aroscebolla from './snacks/placeholder.webp';
-import papas from './snacks/placeholder.webp';
-import papagajo from './snacks/placeholder.webp';
-import popchicken from './snacks/placeholder.webp';
-import snacks from './snacks/placeholder.webp';
+import aroscebolla from './snacks/placeholder.png';
+import papas from './snacks/placeholder.png';
+import papagajo from './snacks/placeholder.png';
+import popchicken from './snacks/placeholder.png';
+import snacks from './snacks/placeholder.png';
 // Video
 import heropizza from './heropizza.mp4';
 
